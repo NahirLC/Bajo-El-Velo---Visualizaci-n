@@ -1,0 +1,137 @@
+
+html {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  /* margin: auto;
+  /*
+  display: flex;
+  place-items: center; 
+  */
+  /* min-width: 320px;
+  min-height: 100vh;
+  max-width: 700px; */ 
+}
+
+#my-wrapper {
+  align-items: center;
+  max-width: 700px;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+#header {
+  /* max-width: 800px; */
+  text-align: center;
+  /* margin: 100px auto; */
+}
+#header img {
+  max-width: 100%;
+}
+#main_title {
+  font-family: 'Lusitana', serif;
+  color: #FFFFFF;
+  font-size: 166px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image_container {
+  width: 700px;
+  height: auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin: 10px;
+  align-items: center;
+}
+
+
+
+.volanta {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  margin-bottom: 10px;
+}
+.subtitulo {
+  font-size: 1.5em;
+  text-align: center;
+}
+.bajada {
+  font-family: 'Lato', sans-serif;
+  font-size: medium;
+  margin: 5% auto;
+  
+}
+.texto_container {
+  max-width: 900px;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+.texto_parrafo {
+  margin: 10px auto;
+}
+.subtitulado{
+  color: #730000;
+  font-family: 'Lusitana';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.subtitulado2{
+  color: #730000;
+  font-family: 'Lusitana';
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fl-scrolly-step {
+  background-color: rgba(115, 00, 00, 0.80) !important;
+  color: white !important;
+  width: 500px !important;
+  align-items: center;
+}
+
+.dwMap {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 902px;
+  align-items: center;
+}
+
+footer {
+  margin-top: 100px;
+  padding: 60px;
+  background-color: #ffe0c3;
+  text-align: left;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
